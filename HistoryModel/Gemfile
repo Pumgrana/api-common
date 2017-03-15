@@ -3,7 +3,10 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in HistoryModel.gemspec
 gemspec
 
-gem 'rails', '~> 5.0.1'
-
+#Database
+gem 'pg'
 # Use ElasticSearch models
 gem 'elasticsearch-model', git: 'git://github.com/elasticsearch/elasticsearch-rails.git'
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '~> 5.0.2'

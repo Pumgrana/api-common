@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "HistoryModel"
   spec.version       = HistoryModel::VERSION
   spec.authors       = ["Tristan Djahel"]
-  spec.email         = ["djahel.tristan@gmail.com.com"]
+  spec.email         = ["djahel.tristan@gmail.com"]
 
-  spec.summary       = %q{HistoryModel for the Pumgrana web application.}
-  spec.description   = %q{Description}
+  spec.summary       = %q{HistoryModel for the Pumgrana Web application}
+  spec.description   = %q{HistoryModel is needed for the api-user and api-autentication to work}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
