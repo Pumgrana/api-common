@@ -23,7 +23,7 @@ module HistoryModel
   end
 
   module Controller
-    #class HistoryController < ApplicationController
+    class HistoryController < ApplicationController
       def show
         id = params[:id]
         history = HistoryModel::Model::History.find_by(id: id)
@@ -65,6 +65,6 @@ module HistoryModel
         end
         render json: history
       end
-    #end
+    end
   end
 end
